@@ -60,7 +60,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 17,
+    "uniqCompNum": 18,
     "versionPublish": "5.3.0",
     "screenshot": "screenshot.png",
     "witsec-mailform-to": "info@hs.domains",

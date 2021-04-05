@@ -31,7 +31,7 @@ $autorespondTemplate = "Hi {name},<br><br>Thank you for your message. We'll get 
 $rcp = ("1" == "1" ? true : false);						// Use reCAPTCHA
 $rcpVersion = "3";								// reCAPTCHA Version
 $rcpScore = "0.5";									// reCAPTCHA Score
-$rcpSecret = "6Lctg50aAAAAAOmzbjAy05JQWzE-t2jYSnP5080u";								// reCAPTCHA Secret Key
+$rcpSecret = "6LeiiJ0aAAAAAKo9ypYHD3WT543ZV_M9kiog76Qx";								// reCAPTCHA Secret Key
 $smtp = ("1" == "1" ? true : false);							// Use SMTP
 $smtpDebug = ("0" == "1" ? 3 : 0);						// SMTP Debug
 $smtpHost = "smtp.gmail.com";											// SMTP Host

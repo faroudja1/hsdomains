@@ -29,7 +29,7 @@ $autorespondSubjectPrefix = "Re:";			// Autorespond Form Subject Prefix
 $autorespondSubject = "";						// Autorespond Custom Subject
 $autorespondTemplate = "Hi {name},<br><br>Thank you for your message. We'll get back to you as soon as we can.<br>Here's the information you sent us:<br><br>{formdata}<br><br>---<br>Have a nice day.";					// Autorespond Template
 $rcp = ("1" == "1" ? true : false);						// Use reCAPTCHA
-$rcpVersion = "3";								// reCAPTCHA Version
+$rcpVersion = "captcha";								// reCAPTCHA Version
 $rcpScore = "0.5";									// reCAPTCHA Score
 $rcpSecret = "6Lctg50aAAAAAOmzbjAy05JQWzE-t2jYSnP5080u";								// reCAPTCHA Secret Key
 $smtp = ("1" == "1" ? true : false);							// Use SMTP

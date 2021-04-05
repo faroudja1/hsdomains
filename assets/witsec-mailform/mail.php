@@ -32,13 +32,13 @@ $rcp = ("1" == "1" ? true : false);						// Use reCAPTCHA
 $rcpVersion = "3";								// reCAPTCHA Version
 $rcpScore = "0.5";									// reCAPTCHA Score
 $rcpSecret = "6Lctg50aAAAAAOmzbjAy05JQWzE-t2jYSnP5080u";								// reCAPTCHA Secret Key
-$smtp = ("0" == "1" ? true : false);							// Use SMTP
+$smtp = ("1" == "1" ? true : false);							// Use SMTP
 $smtpDebug = ("0" == "1" ? 3 : 0);						// SMTP Debug
-$smtpHost = "";											// SMTP Host
-$smtpPort = "";											// SMTP Port
-$smtpSecure = "";										// SMTP Use SSL/TLS (empty, ssl or tls)
-$smtpUsername = "";									// SMTP Username
-$smtpPassword = "";									// SMTP Password
+$smtpHost = "info@hs.domains";											// SMTP Host
+$smtpPort = "587";											// SMTP Port
+$smtpSecure = "tls";										// SMTP Use SSL/TLS (empty, ssl or tls)
+$smtpUsername = "faroudja1@gmail.com";									// SMTP Username
+$smtpPassword = "innyvfvjwgbcupsa";									// SMTP Password
 $attachments = ("0" == "1" ? true : false);				// Process Attachments
 $attachmentsMimeTypes = explode(",", "application/gzip,application/java-archive,application/javascript,application/json,application/ld+json,application/msword,application/ogg,application/pdf,application/rtf,application/vnd.amazon.ebook,application/vnd.api+json,application/vnd.apple.installer+xml,application/vnd.mozilla.xul+xml,application/vnd.ms-excel,application/vnd.ms-fontobject,application/vnd.ms-powerpoint,application/vnd.oasis.opendocument.presentation,application/vnd.oasis.opendocument.spreadsheet,application/vnd.oasis.opendocument.text,application/vnd.openxmlformats-officedocument.presentationml.presentation,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.rar,application/vnd.visio,application/x-7z-compressed,application/x-abiword,application/x-bzip,application/x-bzip2,application/x-freearc,application/x-httpd-php,application/x-tar,application/x-www-form-urlencoded,application/xhtml+xml,application/xml,application/zip,application/zstd,audio/*,font/*,image/*,multipart/form-data,text/*,video/*");	// Mime Types
 

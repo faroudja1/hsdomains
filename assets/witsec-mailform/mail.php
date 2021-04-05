@@ -34,7 +34,7 @@ $rcpScore = "0.5";									// reCAPTCHA Score
 $rcpSecret = "6Lctg50aAAAAAOmzbjAy05JQWzE-t2jYSnP5080u";								// reCAPTCHA Secret Key
 $smtp = ("1" == "1" ? true : false);							// Use SMTP
 $smtpDebug = ("0" == "1" ? 3 : 0);						// SMTP Debug
-$smtpHost = "info@hs.domains";											// SMTP Host
+$smtpHost = "smtp.gmail.com";											// SMTP Host
 $smtpPort = "587";											// SMTP Port
 $smtpSecure = "tls";										// SMTP Use SSL/TLS (empty, ssl or tls)
 $smtpUsername = "faroudja1@gmail.com";									// SMTP Username
